@@ -1,6 +1,8 @@
 <?php
 include '../components/connect.php';
 
+
+
 ?>
 
 
@@ -11,16 +13,16 @@ include '../components/connect.php';
 <title>Firma Tanımlama</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 <link rel="stylesheet" href="../css/bootstrap.min.css">
-<link rel="stylesheet" href="../css/stil.css">
+<link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+    <?php include '../components/header.php';   ?>
     <div id="login">
         <div class="container">
-            <button class="btn btn-success"><a href="supply_company_check.php">fsdf</a>Git</button>
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
-                    <div id="supply_company" class="col-md-12">
+                    <div id="supply_company" class="col-md-12 title">
                         <form id="login-form" action="supply_company_check.php" method="POST">
                             <div class="form-group">
                                 <label for="company_name" class="text-success">Firma Adı:</label><br>
@@ -39,7 +41,7 @@ include '../components/connect.php';
                                 <input type="text" name="telephone" id="telephone" class="form-control">
                             </div>
                             <div class="form-group">
-                                <input type="submit" name="add" class="btn btn-success btn-md mt-4" value="Firma Tanımla">
+                                <input type="submit" name="add" class="btn btn-success btn-lg  mt-4" value="Firma Tanımla">
                             </div>
                         </form>
                     </div>
@@ -48,7 +50,10 @@ include '../components/connect.php';
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
     <script src="../js/script.js"></script>
+
+
     <?php include '../components/alert.php'; ?>
 </body>
 

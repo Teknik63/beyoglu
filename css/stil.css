@@ -44,3 +44,10 @@ body {
 #login .container #login-row #login-column #login-box #login-form #register-link {
     margin-top: -85px;
 }
+
+.row {
+    border-bottom: 2px red !important;
+    margin-top: 1em;
+    background-color: white;
+    color: black;
+}

@@ -12,7 +12,7 @@
    --box-shodow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-* {
+supply_company_check.php * {
    font-family: 'Montserrat', sans-serif;
    margin: 0;
    padding: 0;
@@ -77,7 +77,8 @@ section {
    border: var(--border);
 }
 
-.btn,
+.btn {}
+
 .delete-btn {
    display: block;
    text-align: center;
@@ -89,19 +90,6 @@ section {
    font-size: 1.8rem;
    text-transform: capitalize;
    border-radius: .5rem;
-}
-
-.btn {
-   background-color: var(--main-color);
-}
-
-.delete-btn {
-   background-color: var(--red);
-}
-
-.btn:hover,
-.delete-btn:hover {
-   background-color: var(--black);
 }
 
 .header {
@@ -359,6 +347,14 @@ section {
    flex: 1 1 30rem;
 }
 
+.title {
+   font-size: 1.5rem;
+   align-items: center;
+   justify-content: center;
+   margin-top: .5em;
+}
+
+
 .checkout .row .summary .title {
    font-size: 2.2rem;
    color: var(--black);
@@ -502,6 +498,7 @@ section {
 .order-details .box-container .box .col {
    flex: 1 1 40rem;
 }
+
 
 .order-details .box-container .box .col .image {
    height: 17rem;

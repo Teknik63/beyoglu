@@ -6,6 +6,7 @@
       <nav class="navbar">
          <a href="supply_company.php">Firma Tanımla</a>
          <a href="supply_company_check.php">Firmalar</a>
+         <a href="depo.php">Stok</a>
          <a href="orders.php">my orders</a>
          <?php
          /*                         $count_cart_items = $conn->prepare("SELECT * FROM `cart` WHERE username = ?");

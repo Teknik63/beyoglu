@@ -347,11 +347,16 @@ section {
    flex: 1 1 30rem;
 }
 
+.line {
+   background-color: coral;
+   border-color: red;
+   border: .1rem solid red;
+}
+
 .title {
    font-size: 1.5rem;
    align-items: center;
    justify-content: center;
-   margin-top: .5em;
 }
 
 
